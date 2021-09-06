@@ -1,14 +1,14 @@
-import firebase from 'firebase/app';
-import 'firebase/firestore';
-import 'firebase/auth';
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/auth";
 // Initialize Firebase
 let fbObj = {
-    apiKey: "AIzaSyBgUtWpXgoL2vBxFXlTKRZfOqPo80XNb5s",
-    authDomain: "resume-builder-ecd00.firebaseapp.com",
-    projectId: "resume-builder-ecd00",
-    storageBucket: "resume-builder-ecd00.appspot.com",
-    messagingSenderId: "839024801337",
-    appId: "1:839024801337:web:2cb10086063fa9b5acffe8"
-}
+  apiKey: "AIzaSyA8mvMEtuN3YmqtViDUBxFLATKGMFjcpI4",
+  authDomain: "resume-builder-a483b.firebaseapp.com",
+  projectId: "resume-builder-a483b",
+  storageBucket: "resume-builder-a483b.appspot.com",
+  messagingSenderId: "1007829986765",
+  appId: "1:1007829986765:web:ef72a1fdcbdc032b97e884",
+};
 firebase.initializeApp(fbObj);
 export default firebase;
